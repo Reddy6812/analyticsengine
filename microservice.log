@@ -1,0 +1,8 @@
+Microservice listening on port 5000
+Error: Unable to detect a Project Id in the current environment. 
+To learn more about authentication and Google APIs, visit: 
+https://cloud.google.com/docs/authentication/getting-started
+    at GoogleAuth.findAndCacheProjectId (/Users/vijaykumarreddygade/analyticsengine/analyticsengine/microservice/node_modules/google-auth-library/build/src/auth/googleauth.js:168:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async PubSub.getClientConfig (/Users/vijaykumarreddygade/analyticsengine/analyticsengine/microservice/node_modules/@google-cloud/pubsub/build/src/pubsub.js:516:29)
+    at async PubSub.getClientAsync_ (/Users/vijaykumarreddygade/analyticsengine/analyticsengine/microservice/node_modules/@google-cloud/pubsub/build/src/pubsub.js:578:25)
